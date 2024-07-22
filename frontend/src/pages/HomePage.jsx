@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.png';
+import logo from '../assets/image.png';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import toast, { useToasterStore }  from 'react-hot-toast';
@@ -85,7 +85,7 @@ const HomePage = () => {
         <footer>
             <h4>
                 Built with 💛 &nbsp; by &nbsp;
-                <a href="https://github.com/rishabhjoshii">Rishabh</a>
+                <a href="https://github.com/BobbyKumar17">Bobby Kumar</a>
             </h4>
         </footer>
     </div>
